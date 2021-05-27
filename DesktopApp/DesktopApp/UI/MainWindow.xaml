@@ -1,0 +1,20 @@
+﻿<Window x:Class="DesktopApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="auto" Width="auto">
+<Border Padding="10">
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Frame Margin="0 0 5 0" Grid.Column="0" x:Name="MenuFrame" Height="auto" Width="auto"/>
+            <Frame Margin="5 0 0 0" Grid.Column="1" x:Name="GUIframe" Height="auto" Width="auto"/>
+        </Grid>
+    </StackPanel>
+    </Border>
+</Window>

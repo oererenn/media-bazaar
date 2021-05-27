@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DesktopApp.Objects.Employee">
+    <Position X="0.5" Y="7.75" Width="7.75" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAAAAIBCABAAIRBAAAgAAQAAAAEAAAAEACAAKAE=</HashCode>
+      <FileName>Objects\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopApp.Functionality.EmployeeAdministration">
+    <Position X="11.25" Y="8" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAIAAAAAAAAAQAAAAAAAAAEAAAAAACAAAAA=</HashCode>
+      <FileName>Functionality\EmployeeAdministration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="records" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesktopApp.Objects.Person">
+    <Position X="0.5" Y="2.25" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAACAAIAABAgAAAAgQAAAAiBAAAgGECABE=</HashCode>
+      <FileName>Objects\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopApp.Objects.Admin">
+    <Position X="8" Y="5.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesktopApp.Objects.Records">
+    <Position X="12.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAARAAAAAAAAACAQAAAAAABAAAAAABAAAA=</HashCode>
+      <FileName>Objects\Records.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="peopleList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
